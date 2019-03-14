@@ -12,7 +12,7 @@ Return YES, if Vasya can sell a ticket to each person and give the change with t
 // so you only need to solve logical statements for if someone has a fifty or a hundred 
 // if they have a fifty there must be 1 25 dollar bill in the clerks register or that person cannot but a ticket
 // if they have a 100 dollar bill there must 3 25's or 1 50 and 1 25  or that person cannot but a ticket
-// essentialy if you have to go through all the people inline and if you ever run out of change the asnwer is no 
+// essentialy you have to go through all the people in line and if you ever run out of change the asnwer is no 
 function tickets(peopleInLine){
   let twentyFives = 0;
   let fifties = 0;
